@@ -38,6 +38,7 @@ def hit? (total)
     total += deal_card
   elsif answer != 's'
     invalid_command
+    prompt_user
   end
   return total
 end
