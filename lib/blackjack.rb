@@ -1,5 +1,5 @@
 def welcome
-  # code #welcome here
+  $stdout
 end
 
 def deal_card
