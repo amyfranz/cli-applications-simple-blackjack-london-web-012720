@@ -1,5 +1,5 @@
 def welcome
-  $stdout
+  $stdout.puts("")
 end
 
 def deal_card
