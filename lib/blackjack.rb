@@ -39,6 +39,7 @@ def hit? (total)
   elsif answer != 's'
     invalid_command
     prompt_user
+    answer = get_user_input
   end
   return total
 end
