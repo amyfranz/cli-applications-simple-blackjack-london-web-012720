@@ -37,6 +37,9 @@ def hit? (total)
   if answer == 'h'
     total += deal_card
   end
+  if answer != 'h' or answer != 's'
+    invalid_command
+  end
   return total
 end
 
