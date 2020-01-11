@@ -16,7 +16,7 @@ def prompt_user
 end
 
 def get_user_input
-  $stdout.gets
+  return gets
 end
 
 def end_game
