@@ -24,7 +24,7 @@ def end_game
 end
 
 def initial_round
-  # code #initial_round here
+  $stdout.puts("Sorry, you hit #{card_total}. Thanks for playing!")
 end
 
 def hit?
